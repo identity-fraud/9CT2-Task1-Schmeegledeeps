@@ -1,12 +1,14 @@
-# Aim
+# 9CT2 - Assessment Task 1 - Robotics
+
+## Aim
 The aim is to navigate around obstacles, pick up two uniquely idenitified boxes (Coloured red and yellow) and bring them back to the starting area.
 
-# Key Functions
+## Key Functions
 Key functions for the robot are:
-* Able to navigate around the obstacles without touching them
-* Not leave the mat
-* Pickup the two coloured boxes
-* Navigate back to the starting area
+* Able to navigate around the obstacles without touching them.
+* Does not leave the mat.
+* Can pickup the two coloured boxes.
+* Can navigate blocks back to the starting area.
 
 # Functional and Non-functional requirements
 
@@ -22,13 +24,15 @@ Key functions for the robot are:
 
 
 # Use Cases
-Scenario: Robot must navigate through a maze
-Inputs: The robot moves forever until it detects an object within 10cm in front of it
-Actions: The robot spins 90° and continues moving forever
-Outcome: The robot continues moving forever and turning away from obstacles until it escapes the maze
+Scenario: The robot encounters an obstacle or the edge of the mat.
+Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
+Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
+Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
 
-Scenario: Robot much pick up an object and move it to a destination
+Scenario: The robot finds a block that it wants to grab.
 Inputs: The robot moves towards the object until it reached the object within 10cm in front
 Actions: The robot uses a pincer attachment with the motor in the attachment to grab the object and moves to the destination
 
-# Flowchat and Pseudocode
+# Test Cases
+
+# Flowchart and Pseudocode
