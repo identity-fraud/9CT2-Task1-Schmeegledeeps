@@ -11,24 +11,35 @@ Key functions for the robot are:
 # Functional and Non-functional requirements
 
 ## Functional Requirements:
-* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn 90° if the target isn't red or yellow (using the colour sensor)
+* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn 10° everytime until it no longer sees it, if the target isn't red or yellow (using the colour sensor)
 * Move forward until one of the boxes (Red and Yellow) are found, then pick the boxes up using pincers attachment (using the motors)
-* Turn 180° when the edge of the mat is detected (using the colour sensor's reflection function to identify the difference between the floor and the mat)
+* Turn 90° when the edge of the mat is detected (using the colour sensor's reflection function to identify the difference between the floor and the mat)
 
 ## Non-functional requirements:
-* High response time
-* Should be accurate
-* Also should be efficient
-
+* The robot should stop immediately after detecting an obstacle
+* The robot should not loop for a very long amount of time
 
 # Use Cases
-Scenario: Robot must navigate through a maze
-Inputs: The robot moves forever until it detects an object within 10cm in front of it
-Actions: The robot spins 90° and continues moving forever
-Outcome: The robot continues moving forever and turning away from obstacles until it escapes the maze
+Scenario: The robot encounters an obstacle
+Inputs: The ultrasonic sensor detects an object within 10cm
+Actions: The robot stops and spins 10° every time until it can not longer see the object to avoid it and continues moving forward
+Expected Outcome: The robot avoids the obstacles and continues moving
 
-Scenario: Robot much pick up an object and move it to a destination
-Inputs: The robot moves towards the object until it reached the object within 10cm in front
-Actions: The robot uses a pincer attachment with the motor in the attachment to grab the object and moves to the destination
+Scenario: The robot must pick up a specific coloured object
+Inputs: The colour sensor detects the correct coloured object to pickup
+Actions: The motor moves the pincer attachment into the correct object and picks it up
+Expected Outcome: The robot pickups up the correct object
+
+Scenario: The robot needs to go back to its original postion after picking up the correct objects
+Inputs: When the robot picks up the correct object
+Actions: The robot should continue doing revolutions around the mat until it reaches the centre, which then moves backwards until the start position
+Expected Outcome: The robot is at its original position
+
+# Test Cases
+| Test Case | Input     | Expected Output   |
+|---------- |---------- |----------------   |
+|Avoid Obstacle|Ultrasonic Sensor detects object within 10cm|The robot stops and spins 10° until it can no longer see the object and continues moving forward|
+|Pickup specific coloured object|Colour sensor detects correct colour(s)|Using motors it grabs and picks up the correct object with the pincer attachment|
+|Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
 
 # Flowchat and Pseudocode
