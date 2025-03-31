@@ -24,14 +24,14 @@ Key functions for the robot are:
 
 
 # Use Cases
-* Scenario: The robot encounters an obstacle or the edge of the mat.
-* Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
-* Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
-* Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
+### Scenario: The robot encounters an obstacle or the edge of the mat.
+ Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
+ Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
+ Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
 
-* Scenario: The robot finds a block that it wants to grab.
-* Inputs: The robot moves towards the object until it reached the object within 10cm in front
-* Actions: The robot uses a pincer attachment with the motor in the attachment to grab the object and moves to the destination
+### Scenario: The robot finds a block that it wants to grab.
+ Inputs: The robot moves towards the object until it reached the object within 10cm in front
+ Actions: The robot uses a pincer attachment with the motor in the attachment to grab the object and moves to the destination
 
 # Test Cases
 
