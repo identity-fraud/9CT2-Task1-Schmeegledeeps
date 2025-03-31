@@ -13,7 +13,7 @@ Key functions for the robot are:
 # Functional and Non-functional requirements
 
 ## Functional Requirements:
-* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn 90° if the target isn't red or yellow (using the colour sensor)
+* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn if the target isn't red or yellow (using the colour sensor)
 * Move forward until one of the boxes (Red and Yellow) are found, then pick the boxes up using pincers attachment (using the motors)
 * Turn 180° when the edge of the mat is detected (using the colour sensor's reflection function to identify the difference between the floor and the mat)
 
@@ -25,13 +25,14 @@ Key functions for the robot are:
 
 # Use Cases
 ### Scenario: The robot encounters an obstacle or the edge of the mat.
-#### Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
+ Inputs: The robot's ultrasonic sensor detects an object 10cm or less in front of it. The colour sensor then senses that it is an unwanted block colour.
  Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
- Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
+ Expected Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
 
 ### Scenario: The robot finds a block that it wants to grab.
- Inputs: The robot moves towards the object until it reached the object within 10cm in front
- Actions: The robot uses a pincer attachment with the motor in the attachment to grab the object and moves to the destination
+Inputs: The robot detects an object in front of it using the ultrasonic sensor and the colour sensor sees that it is the right colour.
+Actions: The robot moves towards the object and uses a pincer attachment with a motor to clasp onto the object.
+Expected Outcome: The robot grabs and collects the object.
 
 # Test Cases
 
