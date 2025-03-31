@@ -25,7 +25,7 @@ Key functions for the robot are:
 
 # Use Cases
 ### Scenario: The robot encounters an obstacle or the edge of the mat.
- Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
+#### Inputs: The robot's ultrasonic sensor detects an unwanted object or area 10cm in front of it.
  Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
  Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
 
