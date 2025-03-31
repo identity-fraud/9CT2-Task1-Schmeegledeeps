@@ -42,4 +42,4 @@ Expected Outcome: The robot is at its original position
 |Pickup specific coloured object|Colour sensor detects correct colour(s)|Using motors it grabs and picks up the correct object with the pincer attachment|
 |Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
 
-# Flowchat and Pseudocode
+# Flowchart and Pseudocode
