@@ -25,11 +25,11 @@ Key functions for the robot are:
 
 # Use Cases
 ### Scenario: The robot encounters an obstacle or the edge of the mat.
- Inputs: The robot's ultrasonic sensor detects an object 10cm or less in front of it. The colour sensor then senses that it is an unwanted block colour.
+Inputs: The robot's ultrasonic sensor detects an object 10cm or less in front of it. The colour sensor then senses that it is an unwanted block colour.
 
- Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
+Actions: The robot rotates clockwise by 10° until the ultrasonic sensor can't see the object anymore.
 
- Expected Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
+Expected Outcome: The robot continues moving, but in a different direction to avoid colliding with the obstacle.
 
 ### Scenario: The robot finds a block that it wants to grab.
 Inputs: The robot detects an object in front of it using the ultrasonic sensor and the colour sensor sees that it is the right colour.
@@ -38,12 +38,20 @@ Actions: The robot moves towards the object and uses a pincer attachment with a 
 
 Expected Outcome: The robot grabs and collects the object.
 
-### Scenario: The robot has gathered all the desired blocks, and must get back to the beginning.
-Inputs: The robot detects the colours that it wants. After gathering them and storing the values in variables, a function is triggered to begin reverse.
+### Scenario: The robot has gathered a desired block, and must get back to the beginning.
+Inputs: The robot uses the ultrasonic and colour sensor  detects an object with the colour it wants, and will gather it.
 
-Actions: The robot will move to the edge of the mat and begin to follow the map's perimeter until it gets back to the start. It will turn at corners.
+Actions: The robot will move to the edge of the mat and begin to follow the mat's perimeter and slowly close in to the center in a spiral pattern. It will turn at corners.
 
-Expected Outcome: The robot will travel back to the beginning area while also having both blocks in it's possession.
+Expected Outcome: The robot will travel back to the beginning area while also having a block in it's possession. It will then restart the program to find the second object.
 # Test Cases
+| Test Case | Input     | Expected Output   |
+|---------- |---------- |----------------   |
+|Avoid Obstacle|The ultrasonic sensor detects an object within 10cm or less.|The robot stops moving, and spins 10° clockwise constantly until the unwanted object is out of its path.|
+|Grab Block|The ultrasonic sensor detects an object within 10cm or less and the colour sensor detects that it is not an obstacle based on colour.|The robot will close distance between it and the object. Once close enough, it will lower and close a motor-powered pincer/grabber arm and take the object.| 
+|Go Back To Start|The robot uses the ultrasonic and colour sensors to find a desired object, and grabs it.|The robot will drive to the perimeter of the mat and, from there, will slowly follow the perimeter of the map, moving smaller amounts for every revolution, to bring it closer to the middle. Once in the middle, the robot will drive to the beginning easier.|
+|Avoid Obstacle|Ultrasonic Sensor detects object within 10cm|The robot stops and spins 10° until it can no longer see the object and continues moving forward|
+|Pickup specific coloured object|Colour sensor detects correct colour(s)|Using motors it grabs and picks up the correct object with the pincer attachment|
+|Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
 
 # Flowchart and Pseudocode
