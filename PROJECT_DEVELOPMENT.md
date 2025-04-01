@@ -20,20 +20,29 @@ Key functions for the robot are:
 * The robot should not loop for a very long amount of time
 
 # Use Cases
-Scenario: The robot encounters an obstacle
-Inputs: The ultrasonic sensor detects an object within 10cm
-Actions: The robot stops and spins 10° every time until it can not longer see the object to avoid it and continues moving forward
-Expected Outcome: The robot avoids the obstacles and continues moving
+**Scenario: The robot encounters an obstacle**
 
-Scenario: The robot must pick up a specific coloured object
-Inputs: The colour sensor detects the correct coloured object to pickup
-Actions: The motor moves the pincer attachment into the correct object and picks it up
-Expected Outcome: The robot pickups up the correct object
+>Inputs: The ultrasonic sensor detects an object within 10cm
 
-Scenario: The robot needs to go back to its original postion after picking up the correct objects
-Inputs: When the robot picks up the correct object
-Actions: The robot should continue doing revolutions around the mat until it reaches the centre, which then moves backwards until the start position
-Expected Outcome: The robot is at its original position
+>Actions: The robot stops and spins 10° every time until it can not longer see the object to avoid it and continues moving forward
+
+>Expected Outcome: The robot avoids the obstacles and continues moving
+
+**Scenario: The robot must pick up a specific coloured object**
+
+>Inputs: The colour sensor detects the correct coloured object to pickup
+
+>Actions: The motor moves the pincer attachment into the correct object and picks it up
+
+>Expected Outcome: The robot pickups up the correct object
+
+**Scenario: The robot needs to go back to its original postion after picking up the correct objects**
+
+>Inputs: When the robot picks up the correct object
+
+>Actions: The robot should continue doing revolutions around the mat until it reaches the centre, which then moves backwards until the start position
+
+>Expected Outcome: The robot is at its original position
 
 # Test Cases
 | Test Case | Input     | Expected Output   |
