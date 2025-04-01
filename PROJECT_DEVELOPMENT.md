@@ -38,7 +38,7 @@ Actions: The robot moves towards the object and uses a pincer attachment with a 
 
 Expected Outcome: The robot grabs and collects the object.
 
-## Scenario: The robot has gathered all the desired blocks, and must get back to the beginning.
+### Scenario: The robot has gathered all the desired blocks, and must get back to the beginning.
 Inputs: The robot detects the colours that it wants. After gathering them and storing the values in variables, a function is triggered to begin reverse.
 
 Actions: The robot will move to the edge of the mat and begin to follow the map's perimeter until it gets back to the start. It will turn at corners.
