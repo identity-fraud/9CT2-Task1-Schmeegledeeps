@@ -88,7 +88,7 @@ OUTPUT Number
 END
 ```     
 ### 2 a.  
-
+```
 BEGIN Cost of total books
 
 INPUT AMOUNT
@@ -108,10 +108,10 @@ ENDIF
 OUTPUT PRICES
 
 END
-
+```
 
 ### 2 b.
-
+```
 BEGIN Sum of numbers from 1 to N
 
 INPUT N
@@ -125,3 +125,4 @@ FOR i = 0, i TO N, STEP 1
 OUTPUT SUM
 
 END
+```
