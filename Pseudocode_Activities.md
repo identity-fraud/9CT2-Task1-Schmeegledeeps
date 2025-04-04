@@ -1,3 +1,0 @@
-BEGIN
-    INPUT number
-END
