@@ -49,3 +49,76 @@ Outcome: The robot continues moving forever and turning away from obstacles unti
 # Flowchart Activity C
 
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/Untitled-2025-04-h01-1147.excalidraw%20-%20Copy.png "Flowchart")
+
+## Pseudocode Activities
+### 1 a. 
+```
+BEGIN Even or Odd
+
+INPUT Number
+
+IF Number % 2 == 0 THEN
+
+    OUTPUT "Even"
+
+ELSE
+
+    OUTPUT "Odd"
+
+ENDIF
+
+END
+```
+
+### 1 b.
+```
+BEGIN Calculating Factorial
+
+INPUT Number
+
+FOR i = 1, i TO Number, STEP 1
+    PROCESS Number = Number * i
+
+OUTPUT Number
+
+END
+```     
+### 2 a.  
+```
+BEGIN Cost of total books
+
+INPUT AMOUNT
+
+FOR i = 0, i TO AMOUNT, STEP 1
+
+    INPUT PRICE
+
+    PROCESS PRICES += PRICE
+    
+IF PRICES > 100
+
+    PROCESS = PRICES % 1.1
+
+ENDIF
+
+OUTPUT PRICES
+
+END
+```
+
+### 2 b.
+```
+BEGIN Sum of numbers from 1 to N
+
+INPUT N
+
+FOR i = 0, i TO N, STEP 1
+
+    PROCESS sum += N + i
+    
+    PROCESS N - 1
+
+OUTPUT SUM
+
+END
+```
