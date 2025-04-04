@@ -44,7 +44,7 @@ Outcome: The robot continues moving forever and turning away from obstacles unti
 
 # Flowchart Activity B
 
-![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/Rawr2025-04-01-1147.excalidraw.png "Flowchart")
+![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/Rawr2025-04-01-1147.excalidraw.png "Flowchartb")
 
 # Flowchart Activity C
 
