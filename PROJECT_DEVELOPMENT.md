@@ -52,9 +52,8 @@ Key functions for the robot are:
 |Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
 
 # Flowchart and Pseudocode
-
-# Pseudocode
 ## Pseudocode Activities
+
 ### 1 a. 
 ```
 BEGIN Even or Odd
@@ -126,3 +125,13 @@ OUTPUT SUM
 
 END
 ```
+
+# Flowchart
+## Flowchart Activities
+
+### 1 a. 
+![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/main/Images/1a.excalidraw.png "Flowchart 1 a.")
+### 1 b.
+![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1b.excalidraw.png "Flowchart 1 b.")
+### 1 c.
+![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1c.excalidraw.png "Flowchart 1 c.")
