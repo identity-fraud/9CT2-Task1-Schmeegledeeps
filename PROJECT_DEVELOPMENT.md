@@ -36,7 +36,7 @@ Outcome: The robot continues moving forever and turning away from obstacles unti
 |Pickup specific coloured object|Colour sensor detects correct colour(s)|Using motors it grabs and picks up the correct object with the pincer attachment|
 |Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
   
-# Flowchart and Pseudocode
+<details><summary># Flowchart and Pseudocode</summary>
 
 # Flowchart Activity A
 
@@ -122,3 +122,4 @@ OUTPUT SUM
 
 END
 ```
+</details>
