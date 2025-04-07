@@ -14,11 +14,16 @@ left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
 
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
-
+mapx = 400
+mapy = 1800
 ev3.speaker.beep()
 
 while True:
     robot.drive(200, 0)
+    robot.turn(-90)
+    robot.straight(mapx/2)
+    robot.turn(-90)
+    robot.straight(mapy)
 
     while obstacle_sensor.distance() > 300:
         wait(10)
