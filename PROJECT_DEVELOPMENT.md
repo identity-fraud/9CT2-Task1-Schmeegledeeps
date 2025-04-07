@@ -163,6 +163,7 @@ Question 1 a. Flowchart
 <summary> 1 b.</summary>
 <br>
 Question 1 b. Flowchart
+
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1b.excalidraw.png "Flowchart 1 b.")
 
 </details>
@@ -171,6 +172,7 @@ Question 1 b. Flowchart
 <summary> 1 c.</summary>
 <br>
 Question 1 c. Flowchart
+
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1c.excalidraw.png "Flowchart 1 c.")
 
 </details>
