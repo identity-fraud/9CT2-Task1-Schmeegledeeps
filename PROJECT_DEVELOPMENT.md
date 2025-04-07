@@ -53,8 +53,11 @@ Key functions for the robot are:
 
 # Flowchart and Pseudocode
 ## Pseudocode Activities
+<details>
+<summary>1 a. </summary>
+<br>
 
-### 1 a. 
+Question 1 a. Pseudocode
 ```
 BEGIN Even or Odd
 
@@ -72,8 +75,13 @@ ENDIF
 
 END
 ```
+</details>
 
-### 1 b.
+<details>
+<summary> 1 b.</summary>
+<br>
+
+Question 1 b. Pseudocode
 ```
 BEGIN Calculating Factorial
 
@@ -85,8 +93,14 @@ FOR i = 1, i TO Number, STEP 1
 OUTPUT Number
 
 END
-```     
-### 2 a.  
+```    
+</details> 
+
+<details>
+<summary> 2 a. </summary> 
+<br>
+
+Question 2 a. Pseudocode
 ```
 BEGIN Cost of total books
 
@@ -109,7 +123,13 @@ OUTPUT PRICES
 END
 ```
 
-### 2 b.
+</details>
+
+<details> 
+<summary>2 b.</summary>
+<br>
+Question 2 b. Pseudocode
+
 ```
 BEGIN Sum of numbers from 1 to N
 
@@ -126,12 +146,31 @@ OUTPUT SUM
 END
 ```
 
-# Flowchart
+</details>
+
 ## Flowchart Activities
 
-### 1 a. 
+<details>
+<summary> 1 a. </summary>
+<br>
+Question 1 a. Flowchart
+
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/main/Images/1a.excalidraw.png "Flowchart 1 a.")
-### 1 b.
+
+</details>
+
+<details>
+<summary> 1 b.</summary>
+<br>
+Question 1 b. Flowchart
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1b.excalidraw.png "Flowchart 1 b.")
-### 1 c.
+
+</details>
+
+<details>
+<summary> 1 c.</summary>
+<br>
+Question 1 c. Flowchart
 ![Flowchart](https://github.com/transaction-fraud/9CT2-Task1-Schmeegledeeps/blob/ANWESH/Images/1c.excalidraw.png "Flowchart 1 c.")
+
+</details>
