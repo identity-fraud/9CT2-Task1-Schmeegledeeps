@@ -38,9 +38,10 @@ def goBack():
         if color_sensor_down.color() == 'BLUE':
             robot.stop()
             # Drop correct object
-            main()
             if len(correct_colors) == 0:
                 break
+            else:
+                main()
     
     raise SystemExit
               
