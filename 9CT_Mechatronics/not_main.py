@@ -43,7 +43,7 @@ def goBack():
             else:
                 main()
     
-    raise SystemExit
+ 
               
 
 
