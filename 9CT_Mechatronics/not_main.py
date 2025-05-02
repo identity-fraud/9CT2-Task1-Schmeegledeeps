@@ -1,8 +1,8 @@
 #!/usr/bin/env pybricks-micropython
 from pybricks.hubs import EV3Brick
-from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor, InfraredSensor, UltraSonicSensor, GyroSensor)
-from pybricks.parameters import (Port, Stop, Direction, Button, Color)
-from pybricks.tools import (wait, Stopwatch, DataLog)
+from pybricks.ev3devices import Motor, ColorSensor, UltraSonicSensor
+from pybricks.parameters import Port
+# from pybricks.tools import (wait, Stopwatch, DataLog)
 from pybricks.robotics import DriveBase
 
 ev3 = EV3Brick()
@@ -18,7 +18,8 @@ obstacle_sensor = UltraSonicSensor(Port.S4)
 
 #Combines variables/motors together
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
-
+# class DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104):
+    # robot = DriveBase() - doesnt work?
 correct_colors = ["RED", "YELLOW"]
 
 def goBack():
@@ -62,6 +63,7 @@ def main():
             break
     
     goBack()
+    
     
  
         
