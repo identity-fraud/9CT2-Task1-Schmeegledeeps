@@ -178,7 +178,6 @@ Question 1 c. Flowchart
 </details>
 
 ## Main Flowcharts
-### Processes
 </details>
 
 <details>
