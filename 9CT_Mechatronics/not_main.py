@@ -1,6 +1,7 @@
 #!/usr/bin/env pybricks-micropython
+
 from pybricks.hubs import EV3Brick
-from pybricks.ev3devices import Motor, ColorSensor, UltraSonicSensor
+from pybricks.ev3devices import Motor, ColorSensor, UltrasonicSensor
 from pybricks.parameters import Port
 # from pybricks.tools import (wait, Stopwatch, DataLog)
 from pybricks.robotics import DriveBase
@@ -14,7 +15,7 @@ color_sensor = ColorSensor(Port.S3)
 color_sensor_down = ColorSensor(Port.S1)
 color = color_sensor.color()
 
-obstacle_sensor = UltraSonicSensor(Port.S4)
+obstacle_sensor = UltrasonicSensor(Port.S4)
 
 #Combines variables/motors together
 robot = DriveBase(left_motor, right_motor, wheel_diameter=55.5, axle_track=104)
@@ -52,7 +53,7 @@ def main():
     
         if color_sensor_down.reflection() <= 10:
             robot.stop()
-            robot.turn(100) # Value is 100 so that it does not loop around the mat
+            robot.turn(120) # Value is 120 so that it does not loop around the mat
         if obstacle_sensor.distance() <= 100:
             robot.stop()
             robot.turn(90)
