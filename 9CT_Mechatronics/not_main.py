@@ -31,7 +31,7 @@ def goBack():
         if color_sensor_down.reflection() <= 10:
             robot.stop()
             robot.turn(90)
-        if color_sensor.color() == 'BLUE':
+        if color_sensor_down.color() == 'BLUE':
             robot.stop 
             # Drop object
             if len(correct_colors) == 0:
