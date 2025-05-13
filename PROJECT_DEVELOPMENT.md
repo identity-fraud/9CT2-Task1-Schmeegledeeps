@@ -185,3 +185,12 @@ Question 1 c. Flowchart
 <br>
 
 ![](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/d2650d47f341ee47c8cdf90174b5ce9876271051/Images/processes.png "Processes Flowchart")
+
+
+<details>
+
+<details>
+<summary> Individual Sub-processes Flowchart</summary>
+<br>
+
+![](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/462ecf3cc5ef6dda2d19ceaf9a1a6986ccfe258c/Images/subprocess.png "Sub-processes Flowchart")
