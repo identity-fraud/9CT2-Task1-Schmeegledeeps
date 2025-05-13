@@ -47,9 +47,9 @@ Key functions for the robot are:
 # Test Cases
 | Test Case | Input     | Expected Output   |
 |---------- |---------- |----------------   |
-|Avoid Obstacle|Ultrasonic Sensor detects object within 10cm|The robot stops and spins 10° until it can no longer see the object and continues moving forward|
+|Avoid Obstacle|Ultrasonic Sensor detects object within 10cm|The robot stops and spins 90° and then continues moving forward|
 |Pickup specific coloured object|Colour sensor detects correct colour(s)|Using motors it grabs and picks up the correct object with the pincer attachment|
-|Go back to original position|Motor picks up correct object|Robot continues moving forward x cm less every "revolution" until it is in the centre and moves back to the start position|
+|Go back to original position|Motor picks up correct object|Robot moves until it reaches the end of the mat, then loops around the mat until it finds the blue line indicator for the start |
 
 # Flowchart and Pseudocode
 ## Pseudocode Activities
