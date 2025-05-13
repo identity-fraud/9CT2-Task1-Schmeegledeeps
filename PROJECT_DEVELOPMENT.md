@@ -11,20 +11,21 @@ Key functions for the robot are:
 # Functional and Non-functional requirements
 
 ## Functional Requirements:
-* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn 10° everytime until it no longer sees it, if the target isn't red or yellow (using the colour sensor)
+* Move forward until an object is detected in front of the robot (within 10cm) using the ultrasonic sensor then turn 90° to avoid the obstacle
 * Move forward until one of the boxes (Red and Yellow) are found, then pick the boxes up using pincers attachment (using the motors)
 * Turn 90° when the edge of the mat is detected (using the colour sensor's reflection function to identify the difference between the floor and the mat)
 
 ## Non-functional requirements:
 * The robot should stop immediately after detecting an obstacle
-* The robot should not loop for a very long amount of time
+* The robot should be quick at its speed and obstacle detection
+* The robot should loop around the mat correctly
 
 # Use Cases
 **Scenario: The robot encounters an obstacle**
 
 >Inputs: The ultrasonic sensor detects an object within 10cm
 
->Actions: The robot stops and spins 10° every time until it can not longer see the object to avoid it and continues moving forward
+>Actions: The robot stops and spins 90° and then continues moving forward
 
 >Expected Outcome: The robot avoids the obstacles and continues moving
 
@@ -40,9 +41,8 @@ Key functions for the robot are:
 
 >Inputs: When the robot picks up the correct object
 
->Actions: The robot should continue doing revolutions around the mat until it reaches the centre, which then moves backwards until the start position
-
->Expected Outcome: The robot is at its original position
+>Actions: The robot should move until it finds the edge of the mat, then loops around the mat until it finds the blue line indicator at the start
+>Expected Outcome: The robot is at its original position 
 
 # Test Cases
 | Test Case | Input     | Expected Output   |
