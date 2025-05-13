@@ -6,6 +6,7 @@ from pybricks.parameters import Port
 # from pybricks.tools import (wait, Stopwatch, DataLog) - Not used
 from pybricks.robotics import DriveBase
 
+# Note that this code cannot be run in this directory, and can only be run from a seperate one
 ev3 = EV3Brick()
 
 #Adds variables to motor
