@@ -195,8 +195,7 @@ Question 1 c. Flowchart
 ![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/be90797ef4b39e03a28ceff8c450e923cd175ee9/Images/subprocess.png "Sub-processes Flowchart")
 
 
-<h1> Main Psuedocode</h1>
-
+## Main Pseudocode
 
 
 <details>
