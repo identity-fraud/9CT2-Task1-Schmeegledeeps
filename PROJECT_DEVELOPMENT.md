@@ -223,11 +223,11 @@ END
 
 <details>
 
-<summary> Individual Sub-processes Pseudocode</summary>
+<h1> Individual Sub-processes Pseudocode</h1>
 
 <br>
 
-<summary> Avoid Obstacles</summary>
+<h1> Avoid Obstacles</h1>
 <br>
 
 ```
@@ -249,7 +249,7 @@ END avoid_obstacles
 
 
 
-<summary> Pickup Colour</summary>
+<h1> Pickup Colour</h1>
 <br>
 
 ```
@@ -268,7 +268,7 @@ END pickup_colour
 ```
 
 
-<summary> Avoid Border</summary>
+<h1> Avoid Border</h1>
 <br>
 
 ```
@@ -288,7 +288,7 @@ END avoid_border
 
 
 
-<summary> Find Start</summary>
+<h1> Find Start<</h1>
 <br>
 
 ```
@@ -307,7 +307,7 @@ END find_start
 ```
 
 
-<summary> Drop Colour</summary>
+<h1> Drop Colour</h1>
 <br>
 
 ```
