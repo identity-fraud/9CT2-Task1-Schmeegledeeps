@@ -189,6 +189,7 @@ Question 1 c. Flowchart
 
 
 </details>
+
 <details>
 <summary> Proccess Pseudocode</summary>
 <br>
@@ -212,8 +213,8 @@ END
 </details>
 
 
-
 <details>
+
 <summary> Individual Sub-processes Flowchart</summary>
 <br>
  
@@ -229,6 +230,19 @@ END
 
 
 <details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <summary> Individual Sub-processes Pseudocode</summary>
 
