@@ -190,6 +190,22 @@ Question 1 c. Flowchart
 
 </details>
 
+
+
+<details>
+
+<summary> Individual Sub-processes Flowchart</summary>
+<br>
+ 
+![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/4909cb87520af32f5a89f8a1f0088f2509e388e0/Images/subprocess.png "Sub-processes Flowchart")
+
+</details>
+
+
+<h1> Main Psuedocode</h1>
+
+
+
 <details>
 <summary> Proccess Pseudocode</summary>
 <br>
@@ -214,36 +230,6 @@ END
 
 
 <details>
-
-<summary> Individual Sub-processes Flowchart</summary>
-<br>
- 
-![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/4909cb87520af32f5a89f8a1f0088f2509e388e0/Images/subprocess.png "Sub-processes Flowchart")
-
-</details>
-
-
-<h1> Main Psuedocode</h1>
-
-
-
-
-
-<details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <summary> Individual Sub-processes Pseudocode</summary>
 
 <br>
