@@ -256,7 +256,7 @@ END avoid_obstacles
 
 
 
-<h1> Pickup Colour</h1>
+<h3> Pickup Colour</h3>
 <br>
 
 ```
@@ -275,7 +275,7 @@ END pickup_colour
 ```
 
 
-<h1> Avoid Border</h1>
+<h3> Avoid Border</h3>
 <br>
 
 ```
@@ -295,7 +295,7 @@ END avoid_border
 
 
 
-<h1> Find Start<</h1>
+<h3> Find Start<</h3>
 <br>
 
 ```
@@ -314,7 +314,7 @@ END find_start
 ```
 
 
-<h1> Drop Colour</h1>
+<h3> Drop Colour</h3>
 <br>
 
 ```
