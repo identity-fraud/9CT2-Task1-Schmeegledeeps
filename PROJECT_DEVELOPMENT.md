@@ -230,7 +230,7 @@ END
 
 <details>
 
-<h2> Individual Sub-processes Pseudocode</h2>
+<summary> Individual Sub-processes Pseudocode</summary>
 
 <br>
 
