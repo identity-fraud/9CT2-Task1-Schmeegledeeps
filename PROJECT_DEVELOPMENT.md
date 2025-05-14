@@ -221,13 +221,20 @@ END
 
 </details>
 
+
+<h1> Main Psuedocode</h1>
+
+
+
+
+
 <details>
 
-<h1> Individual Sub-processes Pseudocode</h1>
+<h2> Individual Sub-processes Pseudocode</h2>
 
 <br>
 
-<h1> Avoid Obstacles</h1>
+<h3> Avoid Obstacles</h3>
 <br>
 
 ```
