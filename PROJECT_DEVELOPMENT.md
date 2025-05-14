@@ -192,4 +192,138 @@ Question 1 c. Flowchart
 <summary> Individual Sub-processes Flowchart</summary>
 <br>
  
-![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/462ecf3cc5ef6dda2d19ceaf9a1a6986ccfe258c/Images/subprocess.png "Sub-processes Flowchart")
+![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/be90797ef4b39e03a28ceff8c450e923cd175ee9/Images/subprocess.png "Sub-processes Flowchart")
+
+
+<h1> Main Psuedocode</h1>
+
+
+
+<details>
+<summary> Proccess Pseudocode</summary>
+<br>
+
+```
+BEGIN
+
+    read (avoid_obstacles)
+
+    read (pickup_colour)
+
+    read (avoid_border)
+
+    read (find_start)
+
+    read (drop_colour)
+
+END
+```
+
+</details>
+
+
+<details>
+<summary> Individual Sub-processes Pseudocode</summary>
+
+<br>
+
+<h3> Avoid Obstacles</h3>
+<br>
+
+```
+BEGIN avoid_obstacles
+
+    Get obsticle_sensor.distance()
+
+    IF distance >= 100mm
+
+        Turn 90
+
+    ENDIF 
+
+    Drive Forward
+
+END avoid_obstacles
+        
+```
+
+
+
+<h3> Pickup Colour</h3>
+<br>
+
+```
+BEGIN pickup_colour
+    Get colour_sensor.colour()
+
+    IF colour = RED or YELLOW
+
+        Pickup Object
+
+    ENDIF 
+
+    Drive Forward
+
+END pickup_colour
+```
+
+
+<h3> Avoid Border</h3>
+<br>
+
+```
+BEGIN avoid_border
+    Get colour_sensor_down.reflection()
+
+    IF reflection <= 10
+
+        Turn 120
+
+    ENDIF 
+
+    Drive Forward
+
+END avoid_border
+```
+
+
+
+<h3> Find Start<</h3>
+<br>
+
+```
+BEGIN find_start
+    Get colour_sensor_down.reflection()
+
+    IF reflection <= 10
+
+        Turn 90
+
+    ENDIF 
+
+    Drive Forward
+
+END find_start
+```
+
+
+<h3> Drop Colour</h3>
+<br>
+
+```
+BEGIN drop_colour
+    Get colour_sensor_down.colour()
+
+    IF colour_sensor_down.colour = BLUE
+
+        Drop Object
+        
+    ENDIF 
+
+    Drive Forward
+
+END drop_colour
+```
+
+
+</details>
