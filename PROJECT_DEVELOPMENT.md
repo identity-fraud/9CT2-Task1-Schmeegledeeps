@@ -227,7 +227,6 @@ END
 
 <br>
 
-<details>
 <summary> Avoid Obstacles</summary>
 <br>
 
@@ -249,9 +248,7 @@ END avoid_obstacles
 ```
 
 
-</details>
 
-<details>
 <summary> Pickup Colour</summary>
 <br>
 
@@ -270,9 +267,7 @@ BEGIN pickup_colour
 END pickup_colour
 ```
 
-</details>
 
-<details>
 <summary> Avoid Border</summary>
 <br>
 
@@ -291,9 +286,8 @@ BEGIN avoid_border
 END avoid_border
 ```
 
-</details>
 
-<details>
+
 <summary> Find Start</summary>
 <br>
 
@@ -312,9 +306,7 @@ BEGIN find_start
 END find_start
 ```
 
-</details>
 
-<details>
 <summary> Drop Colour</summary>
 <br>
 
@@ -333,7 +325,6 @@ BEGIN drop_colour
 END drop_colour
 ```
 
-</details>
 
 </details>
 
