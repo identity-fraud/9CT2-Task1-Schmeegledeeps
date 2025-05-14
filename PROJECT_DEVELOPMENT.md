@@ -196,8 +196,7 @@ Question 1 c. Flowchart
 
 </details>
 
-<h1> Main Psuedocode</h1>
-
+## Main Pseudocode
 
 
 <details>
