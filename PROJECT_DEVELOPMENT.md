@@ -192,8 +192,20 @@ Question 1 c. Flowchart
 <details>
 <summary> Proccess Pseudocode</summary>
 <br>
+
+```
 BEGIN
+    read (avoid_obstacles)
+
+    read (pickup_colour)
+
+    read (avoid_border)
+
+    read (find_start)
+
+    read (drop_colour)
 END
+```
 
 </details>
 
