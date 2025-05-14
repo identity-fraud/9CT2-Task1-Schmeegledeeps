@@ -220,6 +220,7 @@ END
 ![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/462ecf3cc5ef6dda2d19ceaf9a1a6986ccfe258c/Images/subprocess.png "Sub-processes Flowchart")
 
 <details>
+
 <summary> Individual Sub-processes Pseudocode</summary>
 
 <br>
