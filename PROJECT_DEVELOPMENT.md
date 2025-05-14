@@ -242,7 +242,7 @@ BEGIN avoid_obstacles
 
     ENDIF 
 
-    Drive Foreward
+    Drive Forward
 
 END avoid_obstacles
         
@@ -256,7 +256,18 @@ END avoid_obstacles
 <br>
 
 ```
+BEGIN pickup_colour
+    Get colour_sensor.colour()
 
+    IF colour = RED or YELLOW
+
+        Pickup Object
+
+    ENDIF 
+
+    Drive Forward
+
+END pickup_colour
 ```
 
 </details>
@@ -266,7 +277,18 @@ END avoid_obstacles
 <br>
 
 ```
+BEGIN avoid_border
+    Get colour_sensor_down.reflection()
 
+    IF reflection <= 10
+
+        Turn 120
+
+    ENDIF 
+
+    Drive Forward
+
+END avoid_border
 ```
 
 </details>
@@ -276,7 +298,18 @@ END avoid_obstacles
 <br>
 
 ```
+BEGIN find_start
+    Get colour_sensor_down.reflection()
 
+    IF reflection <= 10
+
+        Turn 90
+
+    ENDIF 
+
+    Drive Forward
+
+END find_start
 ```
 
 </details>
@@ -286,7 +319,18 @@ END avoid_obstacles
 <br>
 
 ```
+BEGIN drop_colour
+    Get colour_sensor_down.colour()
 
+    IF colour_sensor_down.colour = BLUE
+
+        Drop Object
+        
+    ENDIF 
+
+    Drive Forward
+
+END drop_colour
 ```
 
 </details>
