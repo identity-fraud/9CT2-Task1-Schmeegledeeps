@@ -195,6 +195,7 @@ Question 1 c. Flowchart
 
 ```
 BEGIN
+
     read (avoid_obstacles)
 
     read (pickup_colour)
@@ -204,6 +205,7 @@ BEGIN
     read (find_start)
 
     read (drop_colour)
+
 END
 ```
 
@@ -216,3 +218,75 @@ END
 <br>
  
 ![Flowchart](https://github.com/identity-fraud/9CT2-Task1-Schmeegledeeps/blob/462ecf3cc5ef6dda2d19ceaf9a1a6986ccfe258c/Images/subprocess.png "Sub-processes Flowchart")
+
+<details>
+<summary> Individual Sub-processes Pseudocode</summary>
+
+<br>
+
+<details>
+<summary> Avoid Obstacles</summary>
+<br>
+
+```
+BEGIN avoid_obstacles
+
+    Get obsticle_sensor.distance()
+
+    IF distance >= 100mm
+
+        Turn 90
+
+    ENDIF 
+
+    Drive Foreward
+
+END avoid_obstacles
+        
+```
+
+
+</details>
+
+<details>
+<summary> Pickup Colour</summary>
+<br>
+
+```
+
+```
+
+</details>
+
+<details>
+<summary> Avoid Border</summary>
+<br>
+
+```
+
+```
+
+</details>
+
+<details>
+<summary> Find Start</summary>
+<br>
+
+```
+
+```
+
+</details>
+
+<details>
+<summary> Drop Colour</summary>
+<br>
+
+```
+
+```
+
+</details>
+
+</details>
+
