@@ -6,7 +6,7 @@ from pybricks.parameters import Port
 from pybricks.tools import wait
 from pybricks.robotics import DriveBase
 
-# Note that this code cannot be run in this directory, and can only be run from a seperate one
+# Note that this code cannot be run in this directory (you must create a seperate one through the VSC Lego Mindstorm extension)
 ev3 = EV3Brick()
 
 #Adds variables to each sensor
@@ -80,6 +80,5 @@ def main(): # Beginning of the main program
 
 # main 
 main()
-
 
 #So long and thanks for all the fish
