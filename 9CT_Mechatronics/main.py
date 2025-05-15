@@ -82,4 +82,4 @@ def main(): # Beginning of the main program
 main()
 
 
-#Thanks for all the fish
+#So long and thanks for all the fish
