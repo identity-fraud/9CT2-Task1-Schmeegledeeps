@@ -10,12 +10,14 @@ from pybricks.robotics import DriveBase
 ev3 = EV3Brick()
 
 #Adds variables to each sensor
+grab_motor = Motor(Port.A)
 left_motor = Motor(Port.B)
 right_motor = Motor(Port.C)
-grab_motor = Motor(Port.S2)
 
-color_sensor = ColorSensor(Port.S3)
+
 color_sensor_down = ColorSensor(Port.S1)
+color_sensor = ColorSensor(Port.S3)
+
 color = color_sensor.color()
 
 obstacle_sensor = UltrasonicSensor(Port.S4)
@@ -52,23 +54,27 @@ def main(): # Beginning of the main program
 
     while True:
         robot.drive(100, 0) # Drive forever until
+
+        if color_sensor.color() in correct_colors: # If the colour that it detects is in the correct_colors list, picks up the object
+            robot.stop()
+            grab_motor.run(-100)
+            grab_motor.run(100) # Moves the motor into the correct block
+            wait(1000)
+            
+            grab_motor.brake()
+            correct_colors.remove(color) 
+
+            # Pickup the correct object
+            break 
     
         if color_sensor_down.reflection() <= 10: # The reflection of the carpet is <10
             robot.stop()
             robot.turn(120) # Value is 120 so that it does not loop around the mat
         if obstacle_sensor.distance() <= 100: # Avoids obstacles
             robot.stop()
-            grab_motor.turn(90)
+            robot.turn(90)
 
-        if color_sensor.color() in correct_colors: # If the colour that it detects is in the correct_colors list, picks up the object
-            correct_colors.remove(color) 
-            robot.stop()
-            grab_motor.run(100) # Moves the motor into the correct blocks
-            wait(1000)
-            grab_motor.brake()
-
-            # Pickup the correct object
-            break 
+        
     
     goBack() # Robot returns back to the start
     
