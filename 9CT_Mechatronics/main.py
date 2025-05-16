@@ -35,6 +35,7 @@ def goBack():
         if color_sensor_down.reflection() <= 10: # The reflection of the carpet is <10
             robot.stop()
             robot.turn(90) # Alternatively turns 90 degrees so that it can loop around the mat
+            
         if color_sensor_down.color() == 'BLUE': # On the mat, there are blue lines that indicate the start area
             robot.stop 
             robot.run(-100) # Negative integer so that it unclamps on the correct block
@@ -60,7 +61,6 @@ def main(): # Beginning of the main program
             grab_motor.run(-100)
             grab_motor.run(100) # Moves the motor into the correct block
             wait(1000)
-            
             grab_motor.brake()
             correct_colors.remove(color) 
 
@@ -70,6 +70,7 @@ def main(): # Beginning of the main program
         if color_sensor_down.reflection() <= 10: # The reflection of the carpet is <10
             robot.stop()
             robot.turn(120) # Value is 120 so that it does not loop around the mat
+
         if obstacle_sensor.distance() <= 100: # Avoids obstacles
             robot.stop()
             robot.turn(90)
