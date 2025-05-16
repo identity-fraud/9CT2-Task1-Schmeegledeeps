@@ -58,14 +58,14 @@ def main(): # Beginning of the main program
             robot.turn(120) # Value is 120 so that it does not loop around the mat
         if obstacle_sensor.distance() <= 100: # Avoids obstacles
             robot.stop()
-            robot.turn(90)
+            grab_motor.turn(90)
 
         if color_sensor.color() in correct_colors: # If the colour that it detects is in the correct_colors list, picks up the object
             correct_colors.remove(color) 
             robot.stop()
-            robot.run(100) # Moves the motor into the correct blocks
+            grab_motor.run(100) # Moves the motor into the correct blocks
             wait(1000)
-            robot.brake()
+            grab_motor.brake()
 
             # Pickup the correct object
             break 
