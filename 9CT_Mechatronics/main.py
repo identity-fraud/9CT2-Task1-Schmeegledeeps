@@ -71,7 +71,7 @@ def main(): # Beginning of the main program
             robot.stop()
             robot.turn(120) # Value is 120 so that it does not loop around the mat
 
-        if obstacle_sensor.distance() <= 100: # Avoids obstacles
+        if obstacle_sensor.distance() <= 100 and color_sensor.color() not in correct_colors: # Avoids obstacles
             robot.stop()
             robot.turn(90)
 
