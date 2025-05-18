@@ -685,7 +685,9 @@ Since we all converged on the same Test early on we all had different jobs to do
 1. The Robot does turn 90° when a incorrect coloured block is found.
 2. The Robot moves randomly until the correct colour box is found but the pincer attachments do not get used instead it avoids it like every other block.
 3. The Robot does go back to start using the black line and the blue marked line.
+
 The Robot meets most of the functional requirements but doesnt grab the block.
+
 <br>
 
 ## Non-Functional Requirements
