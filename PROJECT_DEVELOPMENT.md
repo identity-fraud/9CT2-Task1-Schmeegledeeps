@@ -602,3 +602,78 @@ main()
 Made the robot stop pathfinding when a block of the correct colour is found, changed the grabber but still haven't tested, made the grabber hypothetically drop the block in the starting box and if all the boxes have been collected stops the code.
 
 </details>
+
+# Peer Evaluation from Anwesh
+
+### William - 4/5
+<summary> 
+When rating 1-5 with 1 being lacklustre effort and 5 being outstanding effort, how much effort do you feel this group member put into this project?
+
+5/5
+
+Explain the reason for this score in detail: William provided most of the code and the structure of the programm, with the of the debugging and implementation done by Anwesh, spending a lot of time working on the project.
+
+
+
+When rating 1-5 with 1 being not at all and 5 being an exceptional amount, how much did this team member contribute to the team's efforts throughout this project?
+
+5/5
+
+Explain the reason for this score in detail: He contributed a lot with the code and the Design and requirements outline. And he helped other group members to finish their contributions too.
+
+
+
+When rating 1-5 with 1 being entirely non-functional and 5 being completely functional, how effective was this team member's final test case?
+
+3/5
+
+Explain the reason for this score in detail: Since we all converged on one main point we all had the same final test case, although this test was not very functional due to the time frame of the code butwith some features such as pathfinding and movement working properly.
+
+
+
+When rating 1-5 with 1 being not well at all and 5 being exceptionally well, how well do you think this team member performed throughout all stages of the project?
+
+4/5
+
+Explain the reason for this score in detail: The team member preformed well and across ht etime frame contributing a steady flow of work between the time frame. </summary>
+
+
+### Adrian - 4/5
+<summary> 
+
+When rating 1-5 with 1 being lacklustre effort and 5 being outstanding effort, how much effort do you feel this group member put into this project?
+
+5/5
+
+Explain the reason for this score in detail: Adrian worked on the flowcharts and pseudocode and had a lot of frustrations with the website but still managed to get both of them out. He put a lot of effort into making them accurate.
+
+
+
+When rating 1-5 with 1 being not at all and 5 being an exceptional amount, how much did this team member contribute to the team's efforts throughout this project?
+
+5/5
+
+Explain the reason for this score in detail: With doing all the flowcharts and the psuedocode Adrian managed to take a huge chunk off of the work from everyone else.
+
+
+
+When rating 1-5 with 1 being entirely non-functional and 5 being completely functional, how effective was this team member's final test case?
+
+3/5
+
+Explain the reason for this score in detail: Since we all converged on one main point we all had the same final test case, although this test was not very functional due to the time frame of the code butwith some features such as pathfinding and movement working properly.
+
+
+
+When rating 1-5 with 1 being not well at all and 5 being exceptionally well, how well do you think this team member performed throughout all stages of the project?
+
+5/5
+
+Explain the reason for this score in detail: Adrian provided a constant flow of progression through the entire project though at the end we couldn't get the final and finish the project.
+</summary>
+
+### FINAL TEST EVALUATION:
+
+<summary>
+Since we all converged on the same Test early on we all had different jobs to do across the same test. I was debugging and working on the physicala properties of the EV3 , William was working on the code and the main structure of the programm and Adrian worked on the Theory and pseudocode.
+</summary>
