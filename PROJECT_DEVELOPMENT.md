@@ -672,12 +672,30 @@ When rating 1-5 with 1 being not well at all and 5 being exceptionally well, how
 Explain the reason for this score in detail: Adrian provided a constant flow of progression through the entire project though at the end we couldn't get the final and finish the project.
 </summary>
 
-### FINAL TEST EVALUATION:
+# FINAL TEST EVALUATION:
 
 <summary>
 Since we all converged on the same Test early on we all had different jobs to do across the same test. I was debugging and working on the physical properties of the EV3 , William was working on the code and the main structure of the programm and Adrian worked on the Theory and pseudocode.
+</summary>
+
+<br>
+
+## Functional Requirements
 
 1. The Robot does turn 90° when a incorrect coloured block is found.
 2. The Robot moves randomly until the correct colour box is found but the pincer attachments do not get used instead it avoids it like every other block.
 3. The Robot does go back to start using the black line and the blue marked line.
-</summary>
+The Robot meets most of the functional requirements but doesnt grab the block.
+<br>
+
+## Non-Functional Requirements
+
+1. The Robot does immedietly stops when a block is detected.
+2. The Robot was not quick, going randomly around the map didnt let the robot to find a box quickly but the line back to the start was efficient.
+3. The Robot looped around the Map randomly, allowing it to cover more space and find the blocks easier.
+
+The Robot met all the Non-funtional requirements but couldve been a bit faster when going to the blocks.
+
+## Group Final Preformance
+
+Our group preformed well in the start getting many aspects of the design under control but the code we stuggled on. We made the first movement scripts pretty quickly but we struggled on the functions to drive the robot or make the motors spin. We got the Robot to pathfind but we didnt have enough time to fix the motors and debug the entire grab and detect block scripts. We didnt reach the objective of the identified need.
