@@ -698,6 +698,12 @@ The Robot meets most of the functional requirements but doesnt grab the block.
 
 The Robot met all the Non-funtional requirements but couldve been a bit faster when going to the blocks.
 
-## Group Final Preformance
+## Group Final Preformance & Project Management
 
 Our group preformed well in the start getting many aspects of the design under control but the code we stuggled on. We made the first movement scripts pretty quickly but we struggled on the functions to drive the robot or make the motors spin. We got the Robot to pathfind but we didnt have enough time to fix the motors and debug the entire grab and detect block scripts. We didnt reach the objective of the identified need.
+
+## Team Collaboration
+I think all the members of my team worked well together and imporved on each others works while lightening the load of the total work for the final project.
+
+## Future Changes
+I would take more time working on the code and testing it to finalise all the requirements and touch up the flowcharts and pseudocode to make them more accurate. I would fix the code for the grabber arm to make it finally work and I could increase the range for the Ultrasonic Sensor so the sides of the robot don't bump into the blocks.
