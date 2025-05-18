@@ -675,5 +675,9 @@ Explain the reason for this score in detail: Adrian provided a constant flow of 
 ### FINAL TEST EVALUATION:
 
 <summary>
-Since we all converged on the same Test early on we all had different jobs to do across the same test. I was debugging and working on the physicala properties of the EV3 , William was working on the code and the main structure of the programm and Adrian worked on the Theory and pseudocode.
+Since we all converged on the same Test early on we all had different jobs to do across the same test. I was debugging and working on the physical properties of the EV3 , William was working on the code and the main structure of the programm and Adrian worked on the Theory and pseudocode.
+
+1. The Robot does turn 90° when a incorrect coloured block is found.
+2. The Robot moves randomly until the correct colour box is found but the pincer attachments do not get used instead it avoids it like every other block.
+3. The Robot does go back to start using the black line and the blue marked line.
 </summary>
