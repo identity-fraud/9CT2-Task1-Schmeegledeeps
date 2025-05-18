@@ -327,3 +327,62 @@ END drop_colour
 
 
 </details>
+
+## Peer Evaluation (From William)
+
+### Anwesh - 4/5
+
+
+When rating 1-5 with 1 being lacklustre effort and 5 being outstanding effort, how much effort do you feel this group member put into this project
+
+5/5
+
+I think Anwesh put all the effort required and more to achieve a functional robot, he worked on the physical robot and helped me debug problems within the code as well, and has spent a lot of time working on this project.
+
+When rating 1-5 with 1 being not at all and 5 being an exceptional amount, how much did this team member contribute to the team's efforts throughout this project?
+
+5/5
+
+Anwesh contributed a lot in the making of the physical robot, and he helped Anwesh with his flowcharts and me with the debugging of the code.
+
+When rating 1-5 with 1 being entirely non-functional and 5 being completely functional, how effective was this team member's final test case?
+
+3/5
+
+Though we all used the same code - meaning same test cases - our robots test case did not achieve some of our functional requirements due to the restricted time frame, though atleast some critical parts still work (parthfinding, obstacle avoidance).
+
+When rating 1-5 with 1 being not well at all and 5 being exceptionally well, how well do you think this team member performed throughout all stages of the project?
+
+4/5
+
+I think that Anwesh performed very well and consistently throughout the stages in the project.
+
+
+## Adrian - 4/5
+
+When rating 1-5 with 1 being lacklustre effort and 5 being outstanding effort, how much effort do you feel this group member put into this project?
+
+Adrian worked on the flowcharts and pseudocode regarding the robot, he made sure that they are accurate to the actual code and to the highest quality.
+
+When rating 1-5 with 1 being not at all and 5 being an exceptional amount, how much did this team member contribute to the team's efforts throughout this project?
+
+4/5
+
+Adrian working on the pseudocode and flowcharts allowed us to focus more on debugging and the actual robot aspect of this project.
+
+When rating 1-5 with 1 being entirely non-functional and 5 being completely functional, how effective was this team member's final test case?
+
+3/5
+
+Though we all used the same code - meaning same test cases - our robots test case did not achieve some of our functional requirements due to the restricted time frame, though atleast some critical parts still work (parthfinding, obstacle avoidance).
+
+When rating 1-5 with 1 being not well at all and 5 being exceptionally well, how well do you think this team member performed throughout all stages of the project?
+
+4/5
+
+Adrian worked hard to create the flowcharts and pseudocode for us, and was very consistent at his work.
+
+# Final Test and Evaluation
+
+Anwesh worked on the physical robot, William worked on the code for the robot, and Adrian made the pseudocode and flowcharts.
+
